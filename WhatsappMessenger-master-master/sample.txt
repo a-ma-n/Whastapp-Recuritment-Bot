@@ -1,0 +1,12 @@
+Hi,
+Thank you for your interest to be a part of the STC Technical Team. We would like to interview you on 17 December at 10am to 11am via MS Teams. Please be present on time. 
+You may join the team via this link where your meeting shall be conducted in the
+General channel-
+https://teams.microsoft.com/l/team/19%3a43a5b651078a489e9dce68ed69779d96%40thread.tacv2/conversations?groupId=9801ea8a-98be-4106-96cd-2d8388fbbf83&tenantId=d4963ce2-af94-4122-95a9-644e8b01624d
+All the best ! 
+For any doubts please contact 
+Niharika - 9845529260
+Aravind - 735650976
+
+click_btn = WebDriverWait(driver, TRIES).until(EC.presence_of_element_located((By.CLASS_NAME , '_3M-N-')))
+		click_btn.click()
