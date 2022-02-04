@@ -11,7 +11,23 @@ from urllib.parse import quote
 options = Options()
 # options.add_argument("user-data-dir=/Users/vaibhavchopra/Library/Application Support/Google/Chrome/Default")
 
-message = """abcd"""
+message = """💫💫💫💫💫💫💫💫
+%0d%0a%0d%0a
+Are you ready to explore, learn and grow?
+%0d%0a
+Do you dare to do something new, something different? 
+%0d%0a
+Do you dare to be ISTE-VIT🔥
+%0d%0a%0d%0a
+👨🏻‍💻👩🏻‍💻👨🏻‍💻👩🏻‍💻👨🏻‍💻👩🏻‍💻👨🏻‍💻👩🏻‍💻
+%0d%0a%0d%0a
+ISTE welcomes eager minds with the zeal to learn and a passion for success to join us on our journey to achieve greater heights!
+%0d%0a%0d%0a
+Register now!
+%0d%0a%0d%0a
+http://ccs.istevit.in
+%0d%0a%0d%0a
+*Note-Registration on VTOP is mandatory.*"""
 
 numbers = []
 f = open("main.txt", "r")
