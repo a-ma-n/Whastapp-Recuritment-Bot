@@ -11,21 +11,7 @@ from urllib.parse import quote
 options = Options()
 # options.add_argument("user-data-dir=/Users/vaibhavchopra/Library/Application Support/Google/Chrome/Default")
 
-message = """*Recruitments for First Year Students are now live*🪄
-%0d%0a%0d%0a
-Join the *Student Technical Community* to connect and collaborate with individuals who share your interests. Gather experience from seniors who have won multiple *hackathons*, worked on a wide range of *projects* and are currently interning at various *MNCs*.🏆
-%0d%0a%0d%0a
-*STC* will assist you in all aspects of your college life and treasure you with memories that you will cherish for the rest of your life.💯
-%0d%0a%0d%0a
-📍 Link for registration: https://recruitments.stcvit.in/
-%0d%0a%0d%0a
-⭕⭕⭕⭕⭕⭕⭕⭕⭕
-%0d%0a%0d%0a
-💫 Follow us on *Instagram*, for more updates: https://www.instagram.com/stcvit/
-%0d%0a%0d%0a
-💫 For all your queries and announcements join our *Discord* server: https://discord.gg/tJQ4AzQeaa
-%0d%0a%0d%0a
-✨✨✨✨✨✨✨✨✨"""
+message = """abcd"""
 
 numbers = []
 f = open("main.txt", "r")
@@ -40,7 +26,7 @@ driver = webdriver.Chrome("drivers/chromedriver", options=options)
 # driver.get('https://web.whatsapp.com')
 # input()
 c=0
-for number in numbers[2201:2400]:
+for number in numbers[0:5]:
     c+=1
     print(c)
     if number == "":
